@@ -1,0 +1,28 @@
+{
+    "name": "sal64dd/PrjI",
+    "description": "Manages an Online MessageBoard/Forums Site",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "sal64dd",
+            "email": "sal.uncd@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.4",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "tests",
+            "Src\\": "src",
+            "Db\\": "db"
+        }
+    }
+    
+}
