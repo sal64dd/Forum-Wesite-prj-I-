@@ -1,0 +1,32 @@
+# legends
+    > fw : framework
+    
+# todo
+    >
+    
+# Sun 10:00PM Aug 27 2017
+    > init Vagrant Env
+    > Created initial Folder Structure
+    > Created config files
+    > installed composer dependencies
+        > twig
+        > monolog
+        > phpunit (dev)
+    > Created Utils\DependencyInjector class
+        > Descp: loads all dependencies into a single array
+        
+# Mon 7:50PM Aug 28 2017
+    > Created migrate (fw) feature
+        > Descp:  Creates Db Tables
+        > Created DbCreation php
+            > Descp: runs db creation queries
+    > Wrote Table Creation Syntax to migrate (fw)
+    > Created Core\Config class
+        > Descp: loads config data into array
+    > Created phpunit.xml for phpunit tests (dev)
+    > Created AbstractTestCase for phpunit testing (dev)
+    > Created test ConfigTest (dev)
+        > tests Core\Config class
+    > Created Exceptions\NotFoundException class
+    > Created Exceptions\DbException class
+        
