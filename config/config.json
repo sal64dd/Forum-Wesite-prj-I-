@@ -1,0 +1,8 @@
+{
+    "db": {
+        "user": "root",
+        "password": "grade",
+        "db": "forums"
+    },
+    "log": "var/log/main.log"
+}

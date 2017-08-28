@@ -1,0 +1,10 @@
+{
+    "main/:param": {
+        "controller": "main",
+        "method": "method",
+        "login": true,
+        "params": {
+            "param": "number"
+        }
+    }
+}
